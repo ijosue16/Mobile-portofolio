@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portofolio
 
 > **This is the first modification of the portfolio website project**
 **This is not a  full mobile website. It's just a mobile web look alike based on the figma design we were provided.**
