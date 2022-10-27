@@ -27,6 +27,7 @@
   padding-top: 39px;
   padding-left: 24px;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .greetings {
@@ -76,4 +77,14 @@
   display: flex;
   width: 60%;
   justify-content: space-around;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
