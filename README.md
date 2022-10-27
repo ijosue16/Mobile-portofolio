@@ -3,7 +3,11 @@
 # Portfolio Website Project
 ### Mobile design (First modification)
 
-> This is the first modification of the portfolio website project. This is not a  full mobile website. It's just a mobile web look alike based on the figma design we were provided. The project will be developed to an actual portfolio website someday. 
+> This is the first modification of the portfolio website project.
+
+ This is not a  full mobile website. It's just a mobile web look alike based on the figma design we were provided. 
+ 
+ The project will be developed to an actual portfolio website someday. 
 
 
 
