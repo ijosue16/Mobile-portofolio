@@ -2,9 +2,9 @@
 
 # Portofolio
 
-> **This is the first modification of the portfolio website project**
+> **This is the final modification of the portfolio website project**
 **This is not a  full mobile website. It's just a mobile web look alike based on the figma design we were provided.**
-**The project will be developed to an actual portfolio website someday.**
+**The project is fully constructed with all of the needed elements (about me page and works page).**
 
 
 ## Built With
