@@ -69,6 +69,7 @@
   line-height: 28px;
   font-size: 1.2rem;
   font-weight: 400;
+  color: #172b4d;
 
   /* font-family: "Inter"; */
 }
@@ -90,20 +91,22 @@ body {
 }
 
 .mywork {
-  width: 100%;
+  width: 327px;
   margin-top: 1rem;
   grid-gap: 1.5rem;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
   justify-items: center;
   display: grid;
+  padding: 5rem 1.5rem;
+  text-align: center;
 }
 
 .recents-page {
   text-align: center;
   font-weight: 700;
   color: #172b4d;
-  font-size: 40px;
+  font-size: 44px;
 }
 
 .project-template {
@@ -179,8 +182,8 @@ h3 {
 .titles-about-me {
   text-align: center;
   color: #172b4d;
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 42px;
+  font-weight: 707;
   background-repeat: no-repeat;
 }
 
@@ -215,6 +218,13 @@ h3 {
   font-size: 24px;
 }
 
+p.blue {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 32px;
+}
+
 .button {
   font-weight: 500;
   background: #36b37f;
@@ -234,9 +244,42 @@ h3 {
   padding-bottom: 24px;
 }
 
-.paragraph {
-  font-size: 1.2rem;
-  color: rgb(66, 82, 110);
-  font-weight: 400;
+p.paragraph {
+  font-size: 1.3rem;
+  color: #42526e;
+  font-weight: 392px;
   line-height: 28px;
+  font-style: normal;
+  text-align: center;
+}
+
+.resume-img {
+  padding-top: 40px;
+}
+
+.about-me-background {
+  background-image: url(/tools/illustration\ 1-\ about\ me-mobile.png);
+  position: absolute;
+  width: 118.87px;
+  height: 107.94px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 14372.1px;
+}
+
+.button:hover {
+  background-color: #36b37f;
+  box-shadow: 0 8px 16px rgba(23, 56, 42, 0.24);
+  border-radius: 4px;
+}
+
+.button:active {
+  background: #01794b;
+  border-radius: 4px;
+}
+
+.button::before {
+  background: #36b37f;
+  border-radius: 4px;
 }
