@@ -130,12 +130,7 @@ body {
   border-radius: 8px;
 }
 
-.pr-language {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
+
 
 .language {
   color: #3a4a42;
@@ -146,7 +141,17 @@ body {
   background: #ebf0ee;
   border-radius: 4px;
   padding: 8px 12px;
+  float: left;
+  margin-right: 5px;
 }
+.pr-language {
+  width: 100%;
+  margin-left: 25px;
+}
+/* .language {
+  float: left;
+  margin-right: 5px;
+} */
 
 h3 {
   font-style: normal;
