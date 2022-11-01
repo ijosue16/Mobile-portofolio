@@ -63,6 +63,8 @@
   padding: 5rem 1.5rem;
   background-image: url(./tools/header-illsutration-mobile.svg);
   gap: 2.4rem;
+  margin-bottom: 0.2rem;
+  margin-top: 0rem;
 }
 
 .description {
@@ -100,6 +102,9 @@ body {
   display: grid;
   padding: 5rem 1.5rem;
   text-align: center;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  padding-top: 0.1rem;
 }
 
 .recents-page {
@@ -294,4 +299,9 @@ p.paragraph {
   display: grid;
   padding: 5rem 1.5rem;
   text-align: center;
+  margin-bottom: 0.2rem;
+  margin-top: 0rem;
+  padding-top: 0.02rem;
 }
+
+
