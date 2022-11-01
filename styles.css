@@ -53,7 +53,7 @@
 }
 
 .welcome {
-  height: 100vh;
+  /* height: 100vh; */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -63,6 +63,8 @@
   padding: 5rem 1.5rem;
   background-image: url(./tools/header-illsutration-mobile.svg);
   gap: 2.4rem;
+
+  /* padding-bottom: 2.5rem; */
 }
 
 .description {
@@ -92,14 +94,18 @@ body {
 
 .mywork {
   width: 327px;
-  margin-top: 1rem;
+
+  /* margin-top: 1rem; */
   grid-gap: 1.5rem;
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  display: grid;
+  display: flex;
   padding: 5rem 1.5rem;
   text-align: center;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 2.5rem;
 }
 
 .recents-page {
@@ -117,6 +123,7 @@ body {
   background: rgb(235, 240, 238);
   height: 28rem;
   border-radius: 8px;
+  margin-top: 0;
 }
 
 .place-holder {
@@ -157,7 +164,8 @@ h3 {
 }
 
 .indicator {
-  margin-bottom: 3.8rem;
+  margin-bottom: 1.8rem;
+  margin-top: 1.4rem;
 }
 
 .button-resume {
@@ -185,6 +193,7 @@ h3 {
   font-size: 42px;
   font-weight: 707;
   background-repeat: no-repeat;
+  margin-top: 1rem;
 }
 
 .green {
@@ -257,6 +266,7 @@ p.paragraph {
   padding-top: 40px;
 }
 
+/*
 .about-me-background {
   background-image: url(/tools/illustration\ 1-\ about\ me-mobile.png);
   position: absolute;
@@ -266,7 +276,7 @@ p.paragraph {
   background-repeat: no-repeat;
   background-size: contain;
   top: 14372.1px;
-}
+} */
 
 .button:hover {
   background-color: #36b37f;
@@ -286,12 +296,13 @@ p.paragraph {
 
 .about-me-page {
   width: 327px;
-  margin-top: 1rem;
-  grid-gap: 1.5rem;
+  margin-top: 0;
+  grid-gap: 1rem;
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  display: grid;
+  display: flex;
   padding: 5rem 1.5rem;
   text-align: center;
+  padding-top: 0;
 }
