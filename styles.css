@@ -306,3 +306,61 @@ p.paragraph {
   text-align: center;
   padding-top: 0;
 }
+
+.personal-info {
+  display: flex;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  background: #fff;
+  margin-bottom: 2rem;
+  height: 48px;
+  width: 327px;
+  padding-left: 0.4rem;
+}
+
+.contact-par {
+  width: 327px;
+  height: 363px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  align-items: center; 
+}
+
+.cmt-area {
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #fff;
+  width: 327px;
+  height: 114px;
+  margin-bottom: 1.2rem;
+  color: #091e42;
+  padding: 2px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.8rem;
+}
+
+.dev-email {
+  color: #42526e;
+  text-decoration: none;
+  margin-top: 0.8rem;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
