@@ -318,6 +318,7 @@ p.paragraph {
   width: 327px;
   padding-left: 0.4rem;
 }
+
 .contact-par {
   width: 327px;
   height: 363px;
@@ -331,6 +332,7 @@ p.paragraph {
   align-items: center;
   margin-bottom: 3.6rem;
 }
+
 .cmt-area {
   border: 1px solid #60c095;
   border-radius: 4px;
@@ -340,6 +342,7 @@ p.paragraph {
   height: 114px;
   margin-bottom: 2rem;
   color: #091e42;
+
   /* padding:3px; */
   padding: 0.5rem;
 }
