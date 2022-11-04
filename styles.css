@@ -379,7 +379,7 @@ p.paragraph {
   /* width: 100%; */
 }
 
-@media all and (min-width: 769px) {
+@media all and (min-width: 768px) {
   .welcome {
     width: 100%;
     padding: 0;
