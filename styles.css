@@ -376,6 +376,7 @@ p.paragraph {
   background-image: url(./tools/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
+
   /* width: 100%; */
 }
 
@@ -401,6 +402,7 @@ p.paragraph {
     background-image: url(./tools/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
+
     /* width: 100%; */
     align-items: center;
   }
