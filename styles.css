@@ -269,7 +269,7 @@ p.paragraph {
 }
 
 .about-me-page {
-  width: 327px;
+  width: 100%;
   margin-top: 0;
   grid-gap: 1rem;
   flex-direction: column;
@@ -375,11 +375,11 @@ p.paragraph {
 .background-desktop {
   background-image: url(./tools/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
+  background-size: cover;
+  /* width: 100%; */
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 769px) {
   .welcome {
     width: 100%;
     padding: 0;
@@ -400,8 +400,8 @@ p.paragraph {
   .background-desktop {
     background-image: url(./tools/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
+    background-size: cover;
+    /* width: 100%; */
     align-items: center;
   }
 
