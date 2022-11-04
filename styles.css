@@ -79,7 +79,6 @@ ul > li {
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
 .mywork {
@@ -376,7 +375,7 @@ p.paragraph {
 .background-desktop {
   background-image: url(./tools/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
-  background-size: initial;
+  background-size: contain;
   width: 100%;
 }
 
@@ -389,11 +388,21 @@ p.paragraph {
     margin-bottom: 25rem;
   }
 
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+  }
+
   .background-desktop {
     background-image: url(./tools/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
     background-size: initial;
     width: 100%;
+    align-items: center;
   }
 
   .description {
@@ -404,11 +413,13 @@ p.paragraph {
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
+    display: flex;
   }
 
   .body {
-    flex: none;
-    width: 100%;
+    width: 100vh;
+    display: block !important;
+    box-sizing: border-box;
   }
 
   .socials {
@@ -423,10 +434,12 @@ p.paragraph {
   .mywork {
     width: 100%;
     padding: 0;
+    margin-top: 4rem;
   }
 
   .recents-page {
     justify-content: center;
+    align-items: center;
   }
 
   .indicator {
@@ -460,15 +473,15 @@ p.paragraph {
 
   .language-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 390px);
     justify-content: center;
-    gap: 0;
+    column-gap: 0;
     align-items: center;
   }
 
   .project-template,
   .place-holder {
-    width: 400px;
+    width: 370px;
   }
 
   .pr-language {
@@ -515,7 +528,7 @@ p.paragraph {
 
   .personal-info,
   .cmt-area {
-    width: 600px;
+    width: 620px;
   }
 
   .contact-par {
@@ -569,11 +582,12 @@ p.paragraph {
     gap: 24px;
     visibility: visible;
     justify-content: center;
+    margin-top: -3rem;
   }
 
   head {
     padding: 0;
-    margin-top: -4rem;
+    margin-top: 0;
     display: flex;
   }
 
