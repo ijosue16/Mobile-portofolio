@@ -400,7 +400,7 @@ p.paragraph {
   .background-desktop {
     background-image: url(./tools/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
-    background-size: initial;
+    background-size: contain;
     width: 100%;
     align-items: center;
   }
