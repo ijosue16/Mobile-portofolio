@@ -3,8 +3,8 @@
 # Portofolio
 
 > **This is the final modification of the portfolio website project**
-**This is not a  full mobile website. It's just a mobile web look alike based on the figma design we were provided.**
-**The project is fully constructed with all of the needed elements (about me page and works page and also the contact form).**
+**This is not a  full responsive  website. It's just a  web look alike based on the figma design we were provided.**
+**The project is fully constructed with all of the needed elements and sections and also with responsive queries basing on the device view port width **
 
 
 ## Built With
