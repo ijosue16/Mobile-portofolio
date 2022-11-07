@@ -282,6 +282,7 @@ h3 {
   border-radius: 8px;
   align-items: center;
   justify-content: center;
+  padding: 18px;
 }
 
 .blue {
@@ -334,7 +335,7 @@ h3 {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 .form {
@@ -486,7 +487,7 @@ h3 {
   .resume-card {
     width: 100%;
     justify-content: center;
-    padding: 20px;
+    padding: 6px;
   }
 
   .about-me-page {
