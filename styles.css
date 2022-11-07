@@ -10,10 +10,6 @@
   box-sizing: border-box;
 }
 
-body {
-  /* width: 100%; */
-}
-
 .background-desktop {
   margin: 0;
   padding: 0;
@@ -376,6 +372,7 @@ h3 {
   color: #091e42;
   padding: 1rem;
   box-sizing: border-box;
+  min-width: 327px;
 }
 
 .socials2 {
