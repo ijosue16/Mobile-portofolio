@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   font-family: Inter, sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -40,8 +41,6 @@ body {
   font-weight: 600;
   font-size: 20px;
   color: #28352f;
-  font-family: 'Inter';
-  font-style: normal;
 }
 
 .nav-icon {
@@ -57,13 +56,11 @@ body {
 h1 {
   align-items: center;
   display: flex;
-  align-items: center;
   flex-direction: column;
   margin-bottom: 58px;
 }
 
 .greetings {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -73,7 +70,6 @@ h1 {
 }
 
 .profession {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -83,7 +79,6 @@ h1 {
 }
 
 .description {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -130,7 +125,6 @@ ul > li {
 }
 
 .recents-page {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -191,7 +185,6 @@ h3 {
   background: #ebf0ee;
   border-radius: 4px;
   padding: 8px 12px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -209,7 +202,6 @@ h3 {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -237,7 +229,6 @@ h3 {
 }
 
 .titles-about-me {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -249,7 +240,6 @@ h3 {
 }
 
 .paragraph {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -269,7 +259,6 @@ h3 {
   padding: 12px;
   gap: 10px;
   border: #36b37f 0;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -300,7 +289,6 @@ h3 {
 }
 
 .blue {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -315,7 +303,7 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  padding: 0;
+  padding: 11px;
   gap: 8px;
   justify-content: center;
 }
@@ -324,7 +312,6 @@ h3 {
   background: #fff;
   border-radius: 8px;
   padding: 12px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -345,7 +332,6 @@ h3 {
   align-items: center;
   padding: 0;
   gap: 24px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -368,14 +354,12 @@ h3 {
   box-sizing: border-box;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   height: 48px;
   min-width: 327px;
-  height: 48px;
   padding: 1rem;
 }
 
@@ -385,7 +369,6 @@ h3 {
   border-radius: 4px;
   width: 327px;
   height: 114px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -413,7 +396,6 @@ h3 {
 
 .dev-email {
   text-decoration: none;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -426,9 +408,18 @@ h3 {
   * {
     box-sizing: border-box;
   }
+
   .nav-bar {
-    padding: 0px;
+    padding: 0;
+    margin-top: -5em;
   }
+
+  .background-desktop {
+    background-image: url(./tools/Header-llustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover 100%;
+  }
+
   .welcome {
     display: flex;
     flex-direction: column;
@@ -450,84 +441,104 @@ h3 {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    top: 0px;
-    
+    top: 0;
   }
+
   .description {
     max-width: 920px;
-    padding: 0.5rem;
+    padding: 1.5rem;
   }
+
   .desktop-nav-container li > a {
     text-decoration: none;
-    color: #172B4D;
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
+    color: #172b4d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
   }
 
   .mywork {
     display: grid;
-    grid-template-columns: repeat(3,minmax(200px,369px));
+    grid-template-columns: repeat(3, minmax(200px, 329px));
     gap: 1.5rem;
-   justify-content: center;
-   padding: 48px;
+    justify-content: center;
+    padding: 70px 54px;
   }
-/* h2.rece-indi {
-  display: flex;
-  flex-direction: column;
-} */
-  /* .mywork-container {
-    width: 100%;
-  } */
-/* .story-contain {
-  width:100%;
-} */
 
-.project-template {
-   width: 100%;
-}
-.pr-language {
-  flex-wrap: wrap;
-  margin-bottom: 2rem;
-}
+  .rece-indi {
+    padding-top: 100px;
+  }
+
+  .project-template {
+    width: 100%;
+  }
+
+  .pr-language {
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+
   .language-container {
     display: grid;
-    grid-template-columns: repeat(3,minmax(200px,369px));
+    grid-template-columns: repeat(3, minmax(200px, 329px));
     gap: 1.5rem;
-   justify-content: center;
-   padding: 48px;
-  
+    justify-content: center;
+    padding: 48px;
   }
 
   .resume-card {
     width: 100%;
     justify-content: center;
-    padding: 11px;
+    padding: 20px;
   }
 
   .about-me-page {
     padding: 80px 22px;
     gap: 48px;
     justify-content: center;
+    background-image: url(./tools/desktop-assets/illustration-about\ me-1-desktop.svg), url(./tools/desktop-assets/illustration-about-me-2-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 150px 244px, 150px 129px;
+    background-position: top -2rem right -1rem, bottom 36rem left -1.6rem;
   }
 
   .footer {
-    padding: 80px 44px;
+    padding: 80px 90px 200px 90px;
     gap: 2px;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 100px;
+    background-image: url(./tools/desktop-assets/illustration-1-contact-form-desktop.svg), url(./tools/desktop-assets/illustration-2-contact-form-desktop.svg), url(./tools/desktop-assets/contact\ form-illustratoin-3-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 150px, 150px, 190px;
+    background-position: bottom left, bottom 5.5rem left 17rem, bottom 0.4rem right;
   }
 
   .socials-footer {
-    grid-column: 1/3;
+    padding: 1rem 0 0 0;
+    width: 100%;
+    border-top: #dfe1e6 1px solid;
   }
+
   .form {
-    max-width: 684px;
-    padding: 2px;
+    align-items: start;
   }
+
+  .contact-par {
+    padding-left: 30px;
+  }
+
   .personal-info,
   .cmt-area {
-    width: 95%;
+    width: 92%;
+  }
+
+  .dev-email {
+    visibility: hidden;
+  }
+
+  .getin {
+    align-self: start;
   }
 }
