@@ -15,7 +15,8 @@
   padding: 0;
   background-image: url(./tools/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
+  background-position: top;
 }
 
 .desktop-nav-container {
@@ -415,7 +416,7 @@ h3 {
   .background-desktop {
     background-image: url(./tools/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
-    background-size: cover 100%;
+    background-size: 100% auto;
   }
 
   .welcome {
@@ -497,8 +498,12 @@ h3 {
     background-image: url(./tools/desktop-assets/illustration-about\ me-1-desktop.svg), url(./tools/desktop-assets/illustration-about-me-2-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 150px 244px, 150px 129px;
-    background-position: top -2rem right -1rem, bottom 36rem left -1.6rem;
+    background-size: 11.6% auto, 11.6% auto;
+    background-position: top 2rem right 0, bottom 36rem left -1.6rem;
+  }
+
+  .paragraph {
+    max-width: 680px;
   }
 
   .footer {
