@@ -213,12 +213,6 @@ h3 {
 
 .button:hover {
   background-color: #008552;
-
-  width: 8rem ;
-}
-
-.button:hover {
-  background-color:#008552;
   width: 15rem;
   height: 3.4rem;
 }
