@@ -9,18 +9,26 @@
     <script src="https://kit.fontawesome.com/091ffb7972.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="background-desktop">
   <header class="head">
-    <a href="#" class="pagename" >Welcome</a>
-    <nav>
+    <nav class="nav-bar">
+      <div class="mobile-navhead">
+      <a href="#" class="pagename" >Welcome</a>
       <img src="tools/Union.svg" alt="" class="nav-icon">
+    </div>
+      <ul class="desktop-nav-container">
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </nav>
   </header>
   <!-- welcome page -->
     <section class="welcome">
         <h1><span class="greetings">Hey there. I’m Josue</span><br>
         <span class="profession">I’m a software developer</span></h1>
-        <p class="description">I'm a student who is in his first week of the microverse module,
-             this is my first project I'm working on to see my advencements or progress.</p>
+        <p class="description"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+          don’t hestiate to contact me.</p>
              <ul class="socials">
               <li><a href="#"><img src="tools/twitter.svg" alt=""></a></li>
               <li><a href="#"><img src="tools/Linkedin icon.svg" alt=""></a></li>
@@ -28,12 +36,18 @@
               <li><a href="#"><img src="tools/github.svg" alt=""></a></li>
               <li><a href="#"><img src="tools/angellist.svg" alt=""></a></li>
             </ul>
-           <img src="tools/Disabled.svg" alt="">
+            <div class="dropdown">
+           <img src="tools/Disabled.svg" alt=""class="">
+          </div>
     </section>
-    <section class="mywork">
-      <!-- mywork section page -->
-      <h2 class="recents-page">My recents <br>works</h2>
+  </div>
+  
+       <div class="rece-indi">
+      <h2 class="recents-page">My recents works</h2>
       <img src="tools/Indicator.png" alt="" class="indicator">
+      </div>
+    <section class="mywork">
+        <div class="story-contain">
       <article class="project-template">
         <span class="place-holder">
           <h3>Multi-Post Stories <br>Gain+Glory</h3>
@@ -44,6 +58,8 @@
             <li class="language">JavScript</li>
           </ul>
           <button class="button" type="button">See Project</button></span>
+        </div>
+        <div class="story-contain">
       </article>
       <article class="project-template">
         <span class="place-holder">
@@ -56,6 +72,8 @@
           </ul>
           <button class="button" type="button">See Project</button></span>
       </article>
+    </div>
+    <div class="story-contain">
       <article class="project-template">
         <span class="place-holder">
           <h3>Multi-Post Stories <br>Gain+Glory</h3>
@@ -67,6 +85,8 @@
           </ul>
           <button class="button" type="button">See Project</button></span>
       </article>
+    </div>
+    <div class="story-contain">
       <article class="project-template">
         <span class="place-holder">
           <h3>Multi-Post Stories <br>Gain+Glory</h3>
@@ -78,6 +98,8 @@
           </ul>
           <button class="button" type="button">See Project</button></span>
       </article>
+    </div>
+    <div class="story-contain">
       <article class="project-template">
         <span class="place-holder">
           <h3>Multi-Post Stories <br>Gain+Glory</h3>
@@ -89,6 +111,8 @@
           </ul>
           <button class="button" type="button">See Project</button></span>
       </article>
+    </div>
+    <div class="story-contain">
       <article class="project-template">
         <span class="place-holder">
           <h3>Multi-Post Stories <br>Gain+Glory</h3>
@@ -100,9 +124,12 @@
           </ul>
           <button class="button" type="button">See Project</button></span>
       </article  class="about-me-background">
+    </div>
+      </div>
     </section>
     <!-- about me section -->
     <section class="about-me-page">
+      <article class="about-container">
     <h2 class="titles-about-me">About me</h2>
     <p class="paragraph">
       I can help you build a product , feature or website Look through
@@ -110,6 +137,8 @@
       project you need coded, don’t hestiate to contact me.
     </p>
     <button class="button-resume" type="button">get my resume</button>
+  </article>
+  <div class="language-container">
     <article class="resume-card">
       <img
         class="resume-img"
@@ -155,6 +184,7 @@
         <li class="green ">Terminal</li>
       </ul>
     </article>
+  </div>
   </section>
   <footer class="footer">
     <p class="contact-par">I'm always interested in hearing about new projects,
@@ -179,9 +209,12 @@
       maxlength="500"
       class="cmt-area"
       required></textarea>
-      <button type="submit"class="button">Get in touch</button>
+      <button type="submit"class="button getin">Get in touch</button>
     </form>
-    <ul class="socials">
+    
+  </footer>
+  <article class="socials-footer">
+    <ul class="socials2">
       <li><a href="#"><img src="tools/twitter.svg" alt=""></a></li>
       <li><a href="#"><img src="tools/Linkedin icon.svg" alt=""></a></li>
       <li><a href="#"><img src="tools/medium.svg" alt=""></a></li>
@@ -189,6 +222,6 @@
       <li><a href="#"><img src="tools/angellist.svg" alt=""></a></li>
     </ul>
     <a href="#" class="dev-email">myemailhere@email.com</a>
-  </footer>
+  </article>
     </body>
 </html>
