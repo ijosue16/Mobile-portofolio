@@ -207,10 +207,12 @@ h3 {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  transition: height 1s, width 1s, background-color 2s;
+  width: 8rem;
+  transition: height 1s, width 1s, background-color 3s;
 }
 
 .button:hover {
+  background-color:#008552;
   width: 15rem;
   height: 3.4rem;
 }
