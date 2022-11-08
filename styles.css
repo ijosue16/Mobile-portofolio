@@ -11,12 +11,9 @@
 }
 
 .background-desktop {
-  margin: 0;
-  padding: 0;
   background-image: url(./tools/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
   background-size: 100% auto;
-  background-position: top;
 }
 
 .desktop-nav-container {
@@ -78,7 +75,6 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0 1.5rem 2rem 1.5rem;
-  background-image: url(./tools/header-illsutration-mobile.svg);
   gap: 2.4rem;
   background-position: 100% auto;
 }
