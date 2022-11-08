@@ -345,6 +345,7 @@ h3 {
   align-items: center;
   padding: 0;
   gap: 24px;
+  width: 95%;
 }
 
 .personal-info {
