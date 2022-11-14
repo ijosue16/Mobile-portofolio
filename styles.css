@@ -354,6 +354,10 @@ h3 {
   width: 95%;
 }
 
+label {
+  visibility: hidden;
+}
+
 .personal-info {
   background: #fff;
   box-sizing: border-box;
