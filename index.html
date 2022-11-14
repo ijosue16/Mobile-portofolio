@@ -193,12 +193,15 @@
       <input type="text"
       placeholder="Full name"
       required
+      id="full name"
       maxlength="30"
       name="name"
       class="personal-info">
+        <label for="email"></label>
       <input type="email"
       placeholder="Email address"
       required
+      id="email"
       name="Email"
       class="personal-info">
       <textarea name="comment" 
@@ -208,9 +211,10 @@
       placeholder="Enter text here"
       maxlength="500"
       class="cmt-area"
-      required></textarea>
-      <button type="submit"class="button getin">Get in touch</button>
-    </form>
+      required
+      itemid="comments">
+      <button type="submit"class="button getin" id="form submit">Get in touch</button>
+       </form>
     
   </footer>
   <article class="socials-footer">
