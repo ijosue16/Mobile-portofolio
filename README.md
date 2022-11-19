@@ -18,6 +18,11 @@
 [Live Demo Link](https://livedemo.com)
 
 
+##Loom recording
+
+[loom video](https://www.loom.com/share/ec648c1db7f6439c9d1ae34ef3465819)
+
+
 ## Getting Started
 
 ###run the following command if you are using the terminal or cmd ###
