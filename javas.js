@@ -13,10 +13,10 @@ hamburgerIcon.addEventListener('click', () => {
   mobileNav.classList.toggle('active');
   hamburgerIconCross.classList.toggle('active');
 });
-document.querySelectorAll('.nav-link').forEach(n=>n.addEventListener("click",()=>{
-    hamburgerIcon.classList.remove('active');
-    navMenuMobile.classList.remove('active');
-    pageName.classList.remove('active');
-    mobileNav.classList.remove('active');
-    hamburgerIconCross.classList.remove('active');
-}))
+document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
+  hamburgerIcon.classList.remove('active');
+  navMenuMobile.classList.remove('active');
+  pageName.classList.remove('active');
+  mobileNav.classList.remove('active');
+  hamburgerIconCross.classList.remove('active');
+}));
