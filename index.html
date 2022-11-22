@@ -9,22 +9,27 @@
     <script src="https://kit.fontawesome.com/091ffb7972.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="background-desktop">
+  
   <header class="head">
     <nav class="nav-bar">
       <div class="mobile-navhead">
       <a href="#" class="pagename" >Welcome</a>
-      <img src="tools/Union.svg" alt="down arrow" class="nav-icon">
-    </div>
+      <div class="nav-icon">
+        <span class="bar2"></span>
+        <span class="bar2"></span>
+        <span class="bar2"></span>
+      </div>
       <ul class="desktop-nav-container">
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#poortfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#about-me" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
+      </div>
     </nav>
   </header>
+  <div class="background-desktop">
   <!-- welcome page -->
-    <section class="welcome">
+    <section class="welcome" >
         <h1><span class="greetings">Hey there. I’m Josue</span><br>
         <span class="profession">I’m a software developer</span></h1>
         <p class="description"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
@@ -43,7 +48,7 @@
   </div>
   
        <div class="rece-indi">
-      <h2 class="recents-page">My recents works</h2>
+      <h2 class="recents-page" id="portofolio">My recents works</h2>
       <img src="tools/Indicator.png" alt="indicator" class="indicator">
       </div>
     <section class="mywork">
@@ -128,7 +133,7 @@
       </div>
     </section>
     <!-- about me section -->
-    <section class="about-me-page">
+    <section class="about-me-page" id="about-me">
       <article class="about-container">
     <h2 class="titles-about-me">About me</h2>
     <p class="paragraph">
@@ -186,7 +191,7 @@
     </article>
   </div>
   </section>
-  <footer class="footer">
+  <footer class="footer" id="contact">
     <p class="contact-par">I'm always interested in hearing about new projects,
       so if you'd like to chat please get  in touch.</p>
     <form action="https://formspree.io/f/mzbwkgww" method="post"class="form">
@@ -230,5 +235,6 @@
     </ul>
     <a href="#" class="dev-email">myemailhere@email.com</a>
   </article>
+  <script src="javas.js"></script>
     </body>
 </html>

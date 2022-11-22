@@ -15,7 +15,6 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
 
 
 ##Loom recording
@@ -51,8 +50,11 @@ To get a local copy up and running follow these simple example steps.
 👤 **Author1**
 
 - GitHub: [@ijosue16](https://github.com/ijosue16)
-- Twitter: [@Iradukunda_23](https://twitter.com/Iradukunda_23)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+
+👤 **Author2**
+
+- GitHub: [@LethaboMot](https://github.com/LethaboMot)
 
 
 
