@@ -26,7 +26,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Deployment](#Deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -38,7 +38,7 @@
 
 
 
-# 📖 [Portofolio_form_validation] <a name="about-project"></a>
+# 📖 [Portofolio form validation] <a name="about-project"></a>
 
 > **This is the final modification of the portfolio website project**
 **This is not a  full responsive  website. It's just a  web look alike based on the figma design we were provided.**
@@ -125,9 +125,11 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 
-###run the following command if you are using the terminal or cmd ###
+# run the following command if you are using the terminal or cmd
+
 <code>git clone git@github.com:ijosue16/Mobile-portofolio.git</code>
-**and add **
+
+**and add**
 
 Prerequisites
 In order to run this project you need:
