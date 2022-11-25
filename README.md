@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <img src="![Alt text](../../../../../../C:/Users/josue/Documents/GitHub/Mobile-portofolio/murple_logo.png)" alt="logo" width="140"  height="auto" />
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -175,6 +175,10 @@ You can deploy this project using:
 👤 Author2  [This was my partner but he left the program as explained in the pull request using the image of the email i was sent]
 
 - GitHub: [@LethaboMot](https://github.com/LethaboMot)
+
+![Screenshot 2022-11-25 095129](https://user-images.githubusercontent.com/111968510/203930807-ce5c3e73-7a26-4d4e-8ee1-f7d032d5aba0.png)
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
