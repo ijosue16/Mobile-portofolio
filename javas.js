@@ -254,7 +254,7 @@ form.addEventListener('submit', (e) => {
     messages.push('⛔ Name is too long');
     validation.innerHTML = messages.join(',');
   } else if (regex.test(emailAddress.value) === false) {
-    messages.push('⛔ Use Lowercase alphabets for Email');
+    messages.push('⛔ Incorrect Email');
     validation.innerHTML = messages.join(',');
   } else if (emailAddress.value.length >= 100) {
     messages.push('⛔ Email Address is too long');
