@@ -129,6 +129,8 @@ Clone this repository to your desired folder:
 <code>git clone git@github.com:ijosue16/Mobile-portofolio.git</code>
 **and add **
 
+Prerequisites
+In order to run this project you need:
 
 ### Install
 
@@ -170,10 +172,7 @@ You can deploy this project using:
 - GitHub: [@ijosue16](https://github.com/ijosue16)
 
 
-👤 **Author2**[This was my partner but he left the program as explained in the pull request using the image of the email i was sent]
-
-
-![Screenshot 2022-11-25 095129](https://user-images.githubusercontent.com/111968510/203931172-c4ce7208-a12e-439d-8238-654567614b33.png)
+👤 Author2  [This was my partner but he left the program as explained in the pull request using the image of the email i was sent]
 
 - GitHub: [@LethaboMot](https://github.com/LethaboMot)
 
@@ -196,9 +195,18 @@ You can deploy this project using:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
+
+🔭 Future Features
+Describe 1 - 3 features you will add to the project.
+
+ [local storage in web browser]
+
+## 🤝 Contributing
+
+🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
