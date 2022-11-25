@@ -38,7 +38,10 @@
 
 
 
+ preserve-data-in-the-browser
 # 📖 [ preserve data in the browser] <a name="about-project"></a>
+
+
 
 > **This is the final modification of the portfolio website project**
 **This is not a  full responsive  website. It's just a  web look alike based on the figma design we were provided.**
@@ -46,6 +49,36 @@
 **The data insterted in the form are stored in the browser locally**
 
 **[ preserve_data_in_the_browser]** is a...
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+
+**[Portofolio_form_validation]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
