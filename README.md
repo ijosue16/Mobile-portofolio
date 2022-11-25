@@ -1,10 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portofolio
+# Portofolio form validation
 
 > **This is the final modification of the portfolio website project**
 **This is not a  full responsive  website. It's just a  web look alike based on the figma design we were provided.**
-**The project is fully constructed with all of the needed elements and sections and also with responsive queries basing on the device view port width **
+**The form section is constructed so that they will be no submission if the email and full name inputs are not available. **
+
+## Attention
+
+>** note that my partner left the program so it is not possible to have his comits in the projects consider this before you review the comit history**
 
 
 ## Built With
@@ -52,7 +56,7 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@ijosue16](https://github.com/ijosue16)
 
 
-👤 **Author2**
+👤 **Author2**[This was my partner but he left the program as explained in the pull request using the image of the email i was sent]
 
 - GitHub: [@LethaboMot](https://github.com/LethaboMot)
 
