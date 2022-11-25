@@ -535,14 +535,6 @@ label {
 .popupwindow {
   padding: 22px;
   background-color: #c1c7d0;
-
-  /* z-index: 20000; */
-
-  /* width:100vw ;
-  height:100vh; */
-
-  /* position: fixed;
-  top: 0; */
 }
 
 .popupback {
@@ -551,6 +543,7 @@ label {
   z-index: 20000;
   position: absolute;
   top: 0;
+  visibility: hidden;
 }
 
 .popupbody {

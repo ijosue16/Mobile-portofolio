@@ -5,8 +5,6 @@ const pageName = document.querySelector('.pagename');
 const navHeader = document.querySelector('.mobile-navhead');
 const mobileNav = document.querySelector('.nav-bar');
 const workSection = document.querySelector('.mywork');
-const popupHolder = document.getElementsByClassName('popupwindow');
-const popupEnvelop = document.querySelector('.popupback');
 
 hamburgerIcon.addEventListener('click', () => {
   hamburgerIcon.classList.toggle('active');
