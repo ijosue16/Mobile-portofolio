@@ -4,11 +4,14 @@
 
 > **This is the final modification of the portfolio website project**
 **This is not a  full responsive  website. It's just a  web look alike based on the figma design we were provided.**
-**The form section is constructed so that they will be no submission if the email and full name inputs are not available. **
+**The form section is constructed so that they will be no submission if the email and full name inputs are not available.**
 
 ## Attention
 
->** note that my partner left the program so it is not possible to have his comits in the projects consider this before you review the comit history**
+> **note that my partner left the program so it is not possible to have his comits in the projects consider this before you review the comit history**
+
+
+![Screenshot 2022-11-25 095129](https://user-images.githubusercontent.com/111968510/203930807-ce5c3e73-7a26-4d4e-8ee1-f7d032d5aba0.png)
 
 
 ## Built With
@@ -57,6 +60,9 @@ To get a local copy up and running follow these simple example steps.
 
 
 👤 **Author2**[This was my partner but he left the program as explained in the pull request using the image of the email i was sent]
+
+
+![Screenshot 2022-11-25 095129](https://user-images.githubusercontent.com/111968510/203931172-c4ce7208-a12e-439d-8238-654567614b33.png)
 
 - GitHub: [@LethaboMot](https://github.com/LethaboMot)
 
