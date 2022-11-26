@@ -43,7 +43,7 @@
 > **This is the final modification of the portfolio website project**
 **This is not a  full   website. It's just a  web look alike based on the figma design we were provided.**
 **The form section is constructed so that they will be no submission if the email and full name inputs are not available**
-
+**In here I added a popup windo which apears when you click on the see project of the cards**
 
 
 **[Portofolio_form_validation]** is a...
