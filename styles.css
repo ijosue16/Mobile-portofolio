@@ -46,6 +46,8 @@ body {
 
 .mobilepopup-image {
   width: 80vw;
+  display: block;
+  padding: 0;
 }
 
 .desktoppopup-image {
@@ -82,16 +84,22 @@ body {
 }
 
 .popup_header {
-  max-width: 80%;
+  width: 100%;
   color: #172b4d;
   margin: auto;
-  align-self: center;
+  padding-left: 22px;
+  padding-right: 22px;
+  align-self: flex-start;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  text-align: center;
+  text-align: start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
 }
 
 .popup_description {
@@ -687,7 +695,7 @@ article ul li {
 
   .desktoppopup-image {
     display: block;
-    width: 98%;
+    width: 100%;
   }
 
   .popup-images {
@@ -731,15 +739,19 @@ article ul li {
   }
 
   .popup_header {
-    text-align: center;
-    color: #172b4d;
-    margin: 1rem;
-    width: 80%;
+    /* text-align: center; */
+    color: hsl(218, 54%, 20%);
+    width: 100%;
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
+    text-align: start;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-right: 60px;
   }
 
   .popup_description {
@@ -835,8 +847,8 @@ article ul li {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
-    width: 60%;
-    margin-left: 6rem;
+    width: 70%;
+    margin-left: 3rem;
     grid-gap: 1rem;
   }
 
