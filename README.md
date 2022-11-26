@@ -87,21 +87,21 @@
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
-  <summary>Client</summary>
+  <summary>tech 1</summary>
   <ul>
     <li><a href="https://reactjs.org/">HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>tech 2</summary>
   <ul>
     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary>tech 3</summary>
   <ul>
     <li><a href="https://www.javascripttutorial.net/">JavaScript</a></li>
   </ul>
