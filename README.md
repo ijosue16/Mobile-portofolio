@@ -38,12 +38,52 @@
 
 
 
-# 📖 [Portofolio form validation] <a name="about-project"></a>
+ preserve-data-in-the-browser
+# 📖 [ preserve data in the browser] <a name="about-project"></a>
+
+
 
 > **This is the final modification of the portfolio website project**
+ preserve-data-in-the-browser
+**This is not a  full responsive  website. It's just a  web look alike based on the figma design we were provided.**
+**The form section is constructed so that they will be no submission if the email and full name inputs are not available.**
+**The data insterted in the form are stored in the browser locally**
+
+**[ preserve_data_in_the_browser]** is a...
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>tech 1</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">HTML</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>tech 2</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">CSS</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>tech 3</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">JavaScript</a></li>
+  </ul>
+</details>
+
 **This is not a  full   website. It's just a  web look alike based on the figma design we were provided.**
 **The form section is constructed so that they will be no submission if the email and full name inputs are not available**
+ preserve-data-in-the-browser
+ 
 **In here I added a popup windo which apears when you click on the see project of the cards**
+ 
 
 
 **[Portofolio_form_validation]** is a...
@@ -55,23 +95,23 @@
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
-  <summary>Client</summary>
+  <summary>tech 1</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>tech 2</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary>tech 3</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.javascripttutorial.net/">JavaScript</a></li>
   </ul>
 </details>
 
@@ -127,7 +167,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 
-# run the following command if you are using the terminal or cmd
+### run the following command if you are using the terminal or cmd
 
 <code>git clone git@github.com:ijosue16/Mobile-portofolio.git</code>
 
