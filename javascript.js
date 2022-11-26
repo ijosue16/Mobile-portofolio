@@ -101,7 +101,7 @@ const projectInfo = [
     button: 'See Project',
     popupImageMobile: './tools/popup/mobile/popup-image-mobile.svg',
     popupImageDesktop: './tools/popup/desktop/popup-image-desktop.svg',
-  closeMobileBtncloseBtnMobile: './tools/popup/mobile/close-btn-mobile.svg',
+    closeMobileBtncloseBtnMobile: './tools/popup/mobile/close-btn-mobile.svg',
     closeDesktopBtn: './tools/popup/desktop/close-btn-desktop.svg',
     popupCardHeader: 'Keeping track of hundreds of components',
     popupMobileLanguage: ['Ruby on rails', 'css', 'JavaScript'],
