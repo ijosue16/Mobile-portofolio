@@ -396,7 +396,6 @@ p {
   background: #ebf0ee;
   border-radius: 8px;
   border: 1px solid #d0d9d4;
- 
 }
 
 .popup-backgrounds.active {
@@ -426,7 +425,8 @@ p {
 .about-para {
   font-family: "Inter Medium", sans-serif;
   font-weight: 400;
-  font-size: 20px; width: 351px;
+  font-size: 20px;
+  width: 351px;
   height: 189px;
   font-style: normal;
   color: #42526e;
@@ -435,7 +435,6 @@ p {
   margin-left: 1rem;
   line-height: 32px;
   text-align: center;
- 
 }
 
 button {
@@ -763,7 +762,7 @@ article ul li {
   .popup-backgrounds.active {
     position: fixed;
     z-index: 11100;
-    background: #00000099;
+    background: #0009;
     width: 100%;
     height: 100%;
     top: 0;
@@ -812,7 +811,6 @@ article ul li {
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
-   
   }
 
   .about-container {
