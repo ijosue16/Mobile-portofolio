@@ -837,8 +837,8 @@ article ul li {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
-    width: 60%;
-    margin-left: 6rem;
+    width: 70%;
+    margin-left: 3rem;
     grid-gap: 1rem;
   }
 
