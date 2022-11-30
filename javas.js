@@ -237,7 +237,6 @@ for (let i = 0; i < cardInfo.length; i += 1) {
 
 const closebtn = document.querySelector('.popclosebtn');
 closebtn.addEventListener('click', () =>{
- console.log('wee');
 popupWindow.classList.add('hidden')
 })
   });
